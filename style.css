@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: beige;
+    margin: 0;
+}
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 45px;
+
+}
+header,footer{
+    background-color: rgba(159, 173, 75, 0.7);
+    display: flex;
+}
+
+.logo img{
+width: 85px;
+border-radius: 50%;
+margin-top: 15px;
+margin-right: 30px;
+
+}
+nav{
+    background-color: rgba(111, 169, 219, 0.8);
+    display: flex;
+    padding: 15px;
+}
+
+nav a{
+background-color: rgb(43, 61, 226);
+color: #fff;
+padding: 10px;
+margin-top: 20px;
+margin-right: 20px;
+border-radius: 25px;
+text-decoration: none;
+
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+main{
+    /*height: 100vh;*/
+}
+.row{
+    /*height: 120px;*/
+    display:flex;
+
+}
+.izquierda{
+    background-color: rgb(136, 160, 111);
+    width: 50%;
+
+}
+.derecha{
+    background-color: rgb(241, 132, 92);
+    width: 50%;
+
+}
+
+img{
+    width: 100%;
+}
+
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid red;
+    
+}
+#diferente{
+    border-radius: 50%;
+}
